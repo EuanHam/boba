@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boba Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>What Gong Cha drink are you??</h1>
+            <h3>Gong Cha please sponsor me, I'm too broke for boba as a Georgia Tech student now hehe</h3>
+
+            <div>
+                <label for="fname"><h2>What is your name?</h2></label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+
+            <div>
+                <label for="fname"><h2>How many coffees do you drink per day?</h2></label>
+                <input type="number" id="height" name="coffee" step="1">
+            </div>
+
+            <div>
+                <h2>Do you like fruitier drinks?</h2>
+                <input type="radio" id="true" name="fruit" value="true">
+                <label for="true">Yes</label>
+                
+                <input type="radio" id="false" name="fruit" value="false">
+                <label for="false">No</label>                
+
+            </div>
+
+            <div>
+                <h2>What sweetness do you like your drink?</h2>
+                <input type="radio" id="100" name="sweetness" value="100"> 
+                <label for="100">100%</label>
+
+                <input type="radio" id="75" name="sweetness" value="75"> 
+                <label for="75">75%</label>
+
+                <input type="radio" id="50" name="sweetness" value="50"> 
+                <label for="50">50%</label>
+
+                <input type="radio" id="25" name="sweetness" value="25"> 
+                <label for="25">25%</label>
+
+            </div>
+
+            <div>
+                <h2>Do you want an experimental drink?</h2>
+                <input type="radio" id="true" name="experimental" value="true">
+                <label for="true">Yes</label>
+                
+                <input type="radio" id="false" name="experimental" value="false">
+                <label for="false">No</label>                
+
+            </div>
+
+            <br>
+            </br>
+
+            <div>
+                <input id="submit_btn" type="submit" value="Meow">
+            </div>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+
+body {
+    background-image: url('bobaBackground.png');
+    font-family: monospace;
+    color: orange
+}
+form {
+    background-color: lightgoldenrodyellow;
+    border: 10px solid dark orange;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: monospace;
+    text-align: center;
+}
+
+#submit_btn {
+    color: orange;
+}
+
+a{
+    font-family: monospace;
+    align-self: baseline;
+}
+img {
+    max-width: 25%;
+    height: auto;
+  }
+  
